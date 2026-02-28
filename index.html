@@ -1,3 +1,486 @@
-<!-- Generator by NathanPrinsley -->
-<!-- Tools : https://script-deface-generator.prinsh.com -->
-<!DOCTYPE html><html><head><title>Hacked By destroXploit - Indonesian DarkNET</title><meta charset="UTF-8"/><meta name="author" content="destroXploit"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Kami tidak menyerang, kami hanya mencari celah untuk mereka yang ingin kabur dari kesalahan, sampah seperti kalian tidak akan berubah"/><meta property="og:title" content="Hacked By destroXploit - Indonesian DarkNET"/><meta name="keywords" content="destroXploit - Indonesian DarkNET,Hacked By destroXploit,hacked by destroXploit,haxor uploader, haxor script deface generator, nathan prinsley, mr.prins, prinsh, hacked by, haxor my id"/><meta property="og:image" content="https://cdn.prinsh.com/data-1/images/NathanPrinsley-AnonymousLogo.png"/><meta property="og:type" content="website"/> <meta property="og:site_name" content="Haxor Uploader"/><link rel="shortcut icon" type="image/x-icon" href="https://cdn.prinsh.com/data-1/images/NathanPrinsley-AnonymousLogo.png" /><link rel="stylesheet" type="text/css" href="https://cdn.prinsh.com/NathanPrinsley-textstyle/nprinsh-stext.css"/><style>body{background: url("https://cdn.prinsh.com/data-1/images/NathanPrinsley-hacker-dark.jpg") no-repeat center center fixed;background-size:100% 100%;font-family:Calibri;margin-top:35px;}h1,h2{margin-top:.3em;margin-bottom:.3em;}h1.nprinsleyy{color:#dbd9d9;}h2{color:#dbd9d9;}p.message_prinsley{color:#e89a09;margin-top:.25em;margin-bottom:.25em;font-size:16px;font-weight:unset;}.hubungi_prinsh{color:#00eb00;text-decoration:none;}.hubungi_prinsh:hover{color:red}.othermes_nprinsh{color:#560491;font-size:16px;}marquee.foonathanPrinsley{display:none;position: fixed; width: 100%; bottom: 0px; font-family: Tahoma; height: 20px; color: white; left: 0px; border-top: 2px solid darkred; padding: 5px; background-color: #000}</style></head><body><center/><img src="https://cdn.prinsh.com/data-1/images/NathanPrinsley-AnonymousLogo.png" style="width: 20%"><h1 class="nprinsleyy nprinsley-text-rainbowan" style="font-size:32px;">Hacked By destroXploit</h1><h2 style="font-size:24px;" class="nathan-prinsley_none">Indonesian DarkNET</h2><p class="message_prinsley nathan-prinsley_none">Kami tidak menyerang, kami hanya mencari celah untuk mereka yang ingin kabur dari kesalahan, sampah seperti kalian tidak akan berubah</p><p style="font-size:14px;" class="nathan-prinsley_none"><a class="hubungi_prinsh" href="mailto:"></a></p><p class="othermes_nprinsh nathan-prinsley_none">My idol @galirus @lordhozo @bullyxplot dan masih banyak yang tidak ingin ku sebutkan</p><audio src="https://cdn.prinsh.com/data-1/mp3/alan-walker_alone-remix.mp3"  autoplay="1" loop="1"></audio><marquee class="foonathanPrinsley"><b style="color: #dbd9d9;font-size:16px;" class="nathan-prinsley_none"></b></marquee></center><script src="https://cdn.prinsh.com/NathanPrinsley-effect/pink-fireworks.js" type="text/javascript"></script></body></html><!-- Generator by Nathan Prinsley - https://script-deface-generator.prinsh.com -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melihat isi Kode QR WiFi</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #4EDDE8;
+            margin-bottom: 20px;
+        }
+        
+        .upload-container {
+            border: 2px dashed #3498db;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #f8f9fa;
+            transition: all 0.3s;
+        }
+        
+        .upload-container.highlight {
+            background-color: #e8f4fc;
+            border-color: #2980b9;
+        }
+        
+        .upload-container p {
+            margin-bottom: 15px;
+            color: #4EDDE8;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-btn {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .upload-btn:hover {
+            background-color: #2980b9;
+        }
+        
+        .result-container {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #2ecc71;
+        }
+        
+        .result-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+        
+        .wifi-info {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .wifi-info span {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .error-container {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #ffeaea;
+            border-left: 4px solid #e74c3c;
+            color: #c0392b;
+        }
+        
+        .preview-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        #preview {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            display: none;
+        }
+        
+        .raw-data {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            word-break: break-all;
+            font-size: 14px;
+            display: none;
+        }
+        
+        .copy-btn {
+            background-color: #2c3e50;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 14px;
+            display: none;
+        }
+        
+        .copy-btn:hover {
+            background-color: #1a252f;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #4EDDE8;
+            font-size: 14px;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .instructions ol {
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Melihat Kode QR WiFi BY DESTRO</h1>
+            <p class="description">Unggah gambar QR code WiFi untuk melihat informasi jaringan</p>
+        </header>
+        
+        <div class="upload-container" id="drop-area">
+            <p>Seret dan lepas gambar QR code di sini atau</p>
+            <input type="file" id="file-input" class="file-input" accept="image/*">
+            <button class="upload-btn" id="upload-button">Unggah Gambar</button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Memproses QR code...</p>
+        </div>
+        
+        <div class="preview-container">
+            <img id="preview" src="" alt="Pratinjau QR code">
+        </div>
+        
+        <div class="result-container" id="result-container">
+            <div class="result-title">Informasi WiFi Ditemukan:</div>
+            <div class="wifi-info">Nama WiFi (SSID): <span id="wifi-name">-</span></div>
+            <div class="wifi-info">Sandi WiFi: <span id="wifi-password">-</span></div>
+            <div class="wifi-info">Tipe Enkripsi: <span id="wifi-encryption">-</span></div>
+            <div class="wifi-info">Tersembunyi: <span id="wifi-hidden">-</span></div>
+            
+            <div class="raw-data-container">
+                <div class="result-title">Data Mentah QR Code:</div>
+                <div class="raw-data" id="raw-data"></div>
+                <button class="copy-btn" id="copy-btn">Salin Data</button>
+            </div>
+        </div>
+        
+        <div class="error-container" id="error-container">
+            <p id="error-message"></p>
+        </div>
+        
+        <div class="instructions">
+            <h3>Cara Menggunakan:</h3>
+            <ol>
+                <li>Klik tombol "Unggah Gambar" atau seret dan lepas gambar QR code WiFi ke area yang ditentukan</li>
+                <li>Tunggu hingga QR code diproses</li>
+                <li>Informasi WiFi akan ditampilkan jika QR code berhasil dibaca</li>
+                <li>Jika QR code tidak terbaca, periksa data mentah untuk melihat format yang digunakan</li>
+            </ol>
+        </div>
+        
+        <footer>
+            <p>© 2026 track info wifi. Alat sederhana untuk melacak informasi WiFi.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fileInput = document.getElementById('file-input');
+            const uploadButton = document.getElementById('upload-button');
+            const dropArea = document.getElementById('drop-area');
+            const preview = document.getElementById('preview');
+            const resultContainer = document.getElementById('result-container');
+            const errorContainer = document.getElementById('error-container');
+            const errorMessage = document.getElementById('error-message');
+            const loading = document.getElementById('loading');
+            const rawDataElement = document.getElementById('raw-data');
+            const copyButton = document.getElementById('copy-btn');
+            
+          
+            uploadButton.addEventListener('click', () => {
+                fileInput.click();
+            });
+            
+            
+            fileInput.addEventListener('change', handleFileSelect);
+            
+            
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                dropArea.addEventListener(eventName, preventDefaults, false);
+            });
+            
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            
+            ['dragenter', 'dragover'].forEach(eventName => {
+                dropArea.addEventListener(eventName, highlight, false);
+            });
+            
+            ['dragleave', 'drop'].forEach(eventName => {
+                dropArea.addEventListener(eventName, unhighlight, false);
+            });
+            
+            function highlight() {
+                dropArea.classList.add('highlight');
+            }
+            
+            function unhighlight() {
+                dropArea.classList.remove('highlight');
+            }
+            
+            dropArea.addEventListener('drop', handleDrop, false);
+            
+            function handleDrop(e) {
+                const dt = e.dataTransfer;
+                const files = dt.files;
+                
+                if (files.length) {
+                    fileInput.files = files;
+                    handleFileSelect(e);
+                }
+            }
+            
+            
+            copyButton.addEventListener('click', () => {
+                const text = rawDataElement.textContent;
+                navigator.clipboard.writeText(text).then(() => {
+                    
+                    copyButton.textContent = 'Tersalin!';
+                    setTimeout(() => {
+                        copyButton.textContent = 'Salin Data';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Gagal menyalin teks: ', err);
+                });
+            });
+            
+          
+            function handleFileSelect(event) {
+                const file = event.target.files[0] || event.dataTransfer.files[0];
+                
+                if (!file) return;
+                
+                if (!file.type.match('image.*')) {
+                    showError('Silakan unggah file gambar (JPG, PNG, dll).');
+                    return;
+                }
+                
+          
+                resultContainer.style.display = 'none';
+                errorContainer.style.display = 'none';
+                preview.style.display = 'none';
+                rawDataElement.style.display = 'none';
+                copyButton.style.display = 'none';
+                loading.style.display = 'block';
+  
+                
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    
+                    
+                    processQRCode(e.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+            
+            
+            function processQRCode(imageData) {
+                const img = new Image();
+                img.onload = function() {
+                    
+                    
+                    const canvas = document.createElement('canvas');
+                    const context = canvas.getContext('2d');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    context.drawImage(img, 0, 0, canvas.width, canvas.height);
+                    
+                    
+                    const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+                    
+                    
+                    const code = jsQR(imageData.data, imageData.width, imageData.height);
+                    
+                    loading.style.display = 'none';
+                    
+                    if (code) {
+                        
+                        rawDataElement.textContent = code.data;
+                        rawDataElement.style.display = 'block';
+                        copyButton.style.display = 'inline-block';
+                        parseWifiQRCode(code.data);
+                    } else {
+                        showError('Tidak dapat membaca QR code. Pastikan gambar jelas dan mengandung QR code WiFi yang valid.');
+                    }
+                };
+                img.onerror = function() {
+                    loading.style.display = 'none';
+                    showError('Gagal memuat gambar. Silakan coba dengan gambar lain.');
+                };
+                img.src = imageData;
+            }
+            
+            
+            function parseWifiQRCode(data) {
+                console.log("Data QR code:", data);
+                
+              
+            
+                
+                let ssid = '-';
+                let password = '-';
+                let encryption = '-';
+                let hidden = 'Tidak';
+                
+                
+                const wifiRegex = /^WIFI:T:([^;]+);S:([^;]+);P:([^;]+);(?:H:([^;]+);)?/;
+                const match = data.match(wifiRegex);
+                
+                if (match) {
+                    
+                    encryption = decodeURIComponent(match[1]);
+                    ssid = decodeURIComponent(match[2]);
+                    password = decodeURIComponent(match[3]);
+                    hidden = match[4] ? (match[4].toLowerCase() === 'true' ? 'Ya' : 'Tidak') : 'Tidak';
+                } else {
+                    
+                    const altRegex = /^WIFI:S:([^;]+);T:([^;]+);P:([^;]+);;/;
+                    const altMatch = data.match(altRegex);
+                    
+                    if (altMatch) {
+                        ssid = decodeURIComponent(altMatch[1]);
+                        encryption = decodeURIComponent(altMatch[2]);
+                        password = decodeURIComponent(altMatch[3]);
+                    } else {
+
+
+                        const ssidMatch = data.match(/(?:^|;)S:([^;]+)(?:;|$)/);
+                        const pwdMatch = data.match(/(?:^|;)P:([^;]+)(?:;|$)/);
+                        const encMatch = data.match(/(?:^|;)T:([^;]+)(?:;|$)/);
+                        const hiddenMatch = data.match(/(?:^|;)H:([^;]+)(?:;|$)/);
+                        
+                        if (ssidMatch) ssid = decodeURIComponent(ssidMatch[1]);
+                        if (pwdMatch) password = decodeURIComponent(pwdMatch[1]);
+                        if (encMatch) encryption = decodeURIComponent(encMatch[1]);
+                        if (hiddenMatch) hidden = hiddenMatch[1].toLowerCase() === 'true' ? 'Ya' : 'Tidak';
+                        
+
+                        if (!ssidMatch && !pwdMatch && !encMatch) {
+                            showError('Format QR code tidak dikenali. Data mentah telah ditampilkan di bawah.');
+                            resultContainer.style.display = 'block';
+                            return;
+                        }
+                    }
+                }
+                
+
+                document.getElementById('wifi-name').textContent = ssid;
+                document.getElementById('wifi-password').textContent = password;
+                document.getElementById('wifi-encryption').textContent = encryption;
+                document.getElementById('wifi-hidden').textContent = hidden;
+                
+                resultContainer.style.display = 'block';
+                errorContainer.style.display = 'none';
+            }
+            
+
+            function showError(message) {
+                errorMessage.textContent = message;
+                errorContainer.style.display = 'block';
+                resultContainer.style.display = 'none';
+                loading.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+
